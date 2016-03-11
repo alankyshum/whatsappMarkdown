@@ -1,0 +1,21 @@
+{
+  "name": "whatsappMarkdown",
+  "homepage": "https://github.com/alankyshum/whatsappMarkdown",
+  "authors": [
+    "Alan Shum <alan200994@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "markdown-it": "^6.0.0"
+  }
+}

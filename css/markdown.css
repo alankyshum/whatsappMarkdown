@@ -1,0 +1,35 @@
+.markdownParsed ol,
+.markdownParsed ul {
+  list-style-type: disc;
+  padding-left: 5%; }
+
+.markdownParsed h1, .markdownParsed h2 {
+  font-weight: 600; }
+
+.markdownParsed h1 {
+  font-size: 150%; }
+
+.markdownParsed h2 {
+  font-size: 130%; }
+
+.markdownParsed i {
+  font-style: italic; }
+
+.markdownParsed em {
+  font-style: italic; }
+
+.markdownParsed strong {
+  font-weight: 600; }
+
+.markdownParsed code {
+  font-family: monospace; }
+
+.markdownParsed blockquote {
+  font-size: 130%;
+  font-style: italic;
+  border-left: 2px solid #545454;
+  padding-left: 10px;
+  color: #545454; }
+
+.markdownParsed img {
+  max-width: 100%; }

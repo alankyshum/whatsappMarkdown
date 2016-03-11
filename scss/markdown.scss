@@ -1,0 +1,40 @@
+// VARIABLES
+$grey: #545454;
+.markdownParsed {
+	ol,
+	ul {
+		list-style-type: disc;
+		padding-left: 5%;
+	}
+	h1, h2 {
+		font-weight: 600;
+	}
+	h1 {
+		font-size: 150%;
+	}
+	h2 {
+		font-size: 130%;
+	}
+	i {
+		font-style: italic;
+	}
+	em {
+		font-style: italic;
+	}
+	strong {
+		font-weight: 600;
+	}
+	code {
+		font-family: monospace;
+	}
+	blockquote {
+		font-size: 130%;
+		font-style: italic;
+		border-left: 2px solid $grey;
+		padding-left: 10px;
+		color: $grey;
+	}
+	img {
+		max-width: 100%;
+	}
+}
