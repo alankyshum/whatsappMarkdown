@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "markdown-it": "^6.0.0"
+    "markdown-it": "^6.0.0",
+    "prism": "PrismJS/prism#~1.4.1"
   }
 }

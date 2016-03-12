@@ -3,17 +3,17 @@
 	"name": "Whatsapp Markdown Parser",
 	"description": "An extension to parse markdown codes in whatsapp messages",
 	"version": "1.0",
-	"browser_action": {
-		"default_icon": {
-			"19": "assets/32x20.png",
-			"38": "assets/66x40.png"
-		},
+	"page_action": {
+		"default_icon": "assets/mdWhatsapp_20.png",
 		"default_title": "Whatsapp Markdown Parser"
 	},
+	"permissions": [
+		"tabs"
+	],
 	"content_scripts": [{
 		"matches": ["*://web.whatsapp.com/*"],
-		"css": ["css/markdown.css"],
-		"js": ["bower_components/markdown-it/dist/markdown-it.min.js", "js/client.js"],
+		"css": ["css/markdown.css", "bower_components/prism/themes/prism-okaidia.css", "bower_components/prism/plugins/line-numbers/prism-line-numbers.css"],
+		"js": ["bower_components/markdown-it/dist/markdown-it.min.js", "bower_components/prism/prism.js", "bower_components/prism/plugins/line-numbers/prism-line-numbers.min.js", "js/client.js"],
 		"run_at": "document_end"
 	}]
 }
