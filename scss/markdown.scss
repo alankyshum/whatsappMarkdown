@@ -5,6 +5,9 @@ $black: #000;
 $grey_1: #ccc;
 $aliceblue: #f0f8ff;
 // STYLES
+.message-in, .message-out {
+	max-width: 100%;
+}
 .markdownParsed {
   cursor: pointer;
   ol,

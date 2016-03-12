@@ -1,3 +1,6 @@
+.message-in, .message-out {
+  max-width: 100%; }
+
 .markdownParsed {
   cursor: pointer; }
   .markdownParsed ol,
